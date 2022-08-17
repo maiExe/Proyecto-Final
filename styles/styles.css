@@ -35,8 +35,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: none;
-}
+/*     padding: 0;
+ */}
 
 .logoHeader {
     color: rgb(170, 189, 218);
@@ -204,6 +204,11 @@
 .banner-amenidades {
     background-color: white;
     height: 400px;
+}
+
+.amenidades-options {
+    position: relative;
+    top: -60px;
 }
 
 

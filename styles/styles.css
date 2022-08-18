@@ -25,7 +25,7 @@
 }
 
 .img-index {
-    width: 250px;
+    width: 150px;
 }
 
 .main {
@@ -37,10 +37,11 @@
 }
 
 
-@media only screen and (min-width: 576px) {
+
+@media only screen and (min-width: 650px) {
     
     .img-index {
-        width: 350;
+        width: 370px;
     }
     
 }
@@ -434,8 +435,12 @@
 
 /*        ----   AQUI EMPIEZA EL FOOTER   ----      */
 
+.footer {
+    background-color: black;
+}
+
 .footer-icon {
-    width: 45px;
+    width: 30px;
 }
 
 .footer {
@@ -450,9 +455,9 @@
     bottom: 0;
 }
 
-.footer p {
+/* .footer p {
     padding-top: 20px;
-}
+} */
 
 .footer-list {
     list-style: none;

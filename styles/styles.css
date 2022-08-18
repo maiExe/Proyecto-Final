@@ -3,10 +3,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* ---- AQUI VAN ESTILOS PARA HEADER Y MENU DE NAVEGACION ---- */
-
-/* ----- BOOTSTRAP ----- */
-
 .navbar {
     background-color: black;
     padding: 20px;
@@ -31,54 +27,58 @@
 .main {
     display: flex;
     flex-flow: column;
-    background-image: /* linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.15)) , */ url(../assets/home_bg_1.jpg);
+    background-image:
+        url(../assets/home_bg_1.jpg);
     background-color: #000;
     background-size: cover;
 }
 
-
-
 @media only screen and (min-width: 650px) {
-    
+
     .img-index {
         width: 370px;
     }
-    
+
 }
 
 @media only screen and (min-width: 768px) {
-    
+
     .img-index {
         width: 400px;
     }
-    
+
 }
 
 @media only screen and (min-width: 992px) {
-    
+
     .img-index {
         width: 600px;
     }
-    
+
 }
-    
+
 
 @media only screen and (min-width: 992px) {
 
-#container-img-index {
-    display: flex;
+    #container-img-index {
+        display: flex;
+    }
+
+    #custom-txt {
+        text-align: left;
+    }
+
+    .img-index {
+        width: 600px;
+    }
+
 }
 
-#custom-txt {
-    text-align: left;
-}
+/* -- AMENIDADES -- */
 
-.img-index {
-    width: 600px;
+.descripcion-amenidad {
+    color: #fff;
 }
-
-}
-    
 
 .header {
     display: flex;
@@ -100,8 +100,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-/*     padding: 0;
- */}
+}
 
 .logoHeader {
     color: rgb(170, 189, 218);
@@ -142,139 +141,18 @@
     }
 }
 
-/* ----    AQUI VAN ESTILOS PARA MAIN    ---- */
-
-
-
-
-/* ----    AQUI VAN ESTILOS INDEX.HTML   ---- */
-
-/* ----  AQUI VAN ESTILOS INDEX > SECTION 1  ---- */
-
-.section1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
-
-.imagenesCardIntroSection {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.logoIntro {
-    height: 8rem;
-}
-
-.cuerpoIntro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.descripcionIntro {
-    padding: 20px;
-}
-
-/* ----  AQUI VAN ESTILOS INDEX > SECTION 2  ---- */
-
-.section2 {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-
-.imagenesCard {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-}
-
-.imagenes {
-    width: 15rem;
-}
-
-.cuerpo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.descripcion {
-    padding: 20px 30px 20px 30px;
-}
-
-/*     ------ MEDIA QUERIES INDEX > SECTION 2 ------*/
-
-@media only screen and (min-width: 820px) {
-
-.cardSection2 {
-    background-color: transparent;
-}
-
-.imagenesCard {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    }
-
-.imagenes {
-    width: 18rem;
-    }
-
-.cuerpo {
-    align-items: flex-start;
-    text-align: start;
-    }
-
-    .titulo {
-        margin-left: 30px;
-    }
-}
-
-/* ----  AQUI VAN ESTILOS INDEX > SECTION 3  ---- */
-
-.section3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.cardSection3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.cardSection3 p {
-    width: 20rem;
-}
-
 /* ----- AQUI VAN ESTILOS PARA AMENIDADES.HTML ------ */
 
 
 .banner-amenidades {
-    background-color: white;
     height: 400px;
 }
 
 .amenidades-options {
     position: relative;
-    top: -60px;
     color: white;
+    top: -60px;
+    padding-top: 30px;
 }
 
 
@@ -304,7 +182,12 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 0 20px 0 20px;
+    margin: 0 20px 50px 20px;
+}
+
+.global__line {
+    background-color: white;
+    height: 2px;
 }
 
 /*     ---- MEDIA QUERIES AMENIDADES ----   */
@@ -312,26 +195,21 @@
 
 @media only screen and (min-width: 820px) {
 
-    .banner-amenidades {
-        background-image: url(../assets/cheems.jpg);
-        background-color: white;
-        height: 550px;
+    .amenidades-options {
+        top: -105px;
+
     }
 
     .amenidades-list {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-/*         gap: 1rem;
- */        justify-items: center;
+        justify-items: center;
     }
 
     .amenidades-item {
         display: flex;
         justify-content: center;
-        height: 7rem;
-        width: 7rem;
         background-color: black;
-        border-radius: 10px;
+        border-radius: 100px;
     }
 
     .amenidades-txt {
@@ -341,7 +219,55 @@
 
 }
 
-/*       ----  AQUI VAN ESTILOS DEPARTAMENTOS.HTML  ----            */
+@media only screen and (min-width: 820px) {
+
+    .amenidades-item {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    #descripcion-amenidad {
+        font-size: 20px;
+    }
+
+    .amenidades-txt {
+        font-size: 16px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    .amenidades-item {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    #descripcion-amenidad {
+        font-size: 26px;
+    }
+
+    .amenidades-txt {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .amenidades-item {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .amenidades-txt {
+        font-size: 20px;
+    }
+
+}
+
+/* -- AQUI VAN ESTILOS DEPARTAMENTOS.HTML -- */
 
 .card-departamento {
     display: grid;
@@ -387,7 +313,7 @@
     margin: 8px;
 }
 
-/*     ---- MEDIA QUERIES DEPARTAMENTOS ----   */
+/* -- MEDIA QUERIES DEPARTAMENTOS -- */
 
 @media only screen and (min-width: 820px) {
 
@@ -430,7 +356,7 @@
     }
 }
 
-/*        ----   AQUI EMPIEZA EL FOOTER   ----      */
+/* -- AQUI EMPIEZA EL FOOTER -- */
 
 .footer {
     background-color: black;
@@ -451,10 +377,6 @@
     width: 100%;
     bottom: 0;
 }
-
-/* .footer p {
-    padding-top: 20px;
-} */
 
 .footer-list {
     list-style: none;

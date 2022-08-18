@@ -13,70 +13,152 @@
     <title>Amenidades</title>
 </head>
 
-<body class="contenedor">
-    <header class="header">
-        <div class="cajaLogo">
-            <a class="logoHeader" href="../index.html">LOGO</a>
-        </div>
-        <!--<li id="logo"><a href="../index.html">LOGO</a></li>-->
-        <nav class="cajaNav">
-            <div class="navLista">
-                <div><a href="./amenidades.html">AMENIDADES</a></div>
-                <div><a href="./departamentos.html">DEPARTAMENTOS</a></div>
-                <div><a href="./ubicacion.html">UBICACIÓN</a></div>
-                <div><a href="./contacto.html">CONTACTO</a></div>
+<body class="container-fluid">
+
+    <!-- NAV MENU -->
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../assets/logo-navbar.png" class="logo-navbar"
+                    alt="logo barra navegacion">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./amenidades.html" >AMENIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./departamentos.html">MODELOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ubicacion.html">UBICACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </li>
             </div>
-        </nav>
-    </header>
+    </nav>
+
+    <!-- NAV MENU -->
 
     <main class="main">
 
-        <div class="banner-amenidades">
+        <!-- CAROUSEL -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/a-alberca.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/a-gimnasio.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/a-jacuzzi.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/a-lavanderia.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/a-lobby.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/a-roof-garden.jpg" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon mb-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon mb-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        
+
+        <!-- CAROUSEL -->
+
         <div class="amenidades-options">
             <section class="amenidades-list">
 
                 <div class="amenidades-item">
-                    <span class="amenidades-txt">GIMNASIO</span>
+                    <span class="amenidades-txt" id="titles">Alberca</span>
                 </div>
 
                 <div class="amenidades-item">
-                    <span class="amenidades-txt">CENTRO DE LAVADO</span>
+                    <span class="amenidades-txt" id="titles">Gimnasio</span>
                 </div>
 
                 <div class="amenidades-item">
-                    <span class="amenidades-txt">ROOF GARDEN</span>
+                    <span class="amenidades-txt" id="titles">Jacuzzi</span>
                 </div>
 
                 <div class="amenidades-item">
-                    <span class="amenidades-txt">ELEVADOR</span>
+                    <span class="amenidades-txt" id="titles">Lavandería</span>
                 </div>
 
                 <div class="amenidades-item">
-                    <span class="amenidades-txt">LUDOTECA</span>
+                    <span class="amenidades-txt" id="titles">Lobby</span>
                 </div>
 
                 <div class="amenidades-item">
-                    <span class="amenidades-txt">SALON DE EVENTOS</span>
+                    <span class="amenidades-txt" id="titles">Roof garden</span>
                 </div>
 
             </section>
+            <div class="content-wrapper bg-black p-5 mt-5">
+                <div class="title-wrapper text-center">
+                    <h2 class="global__subtitle" id="titles">ETERNALLY <b>ENJOYABLE</b></h2>
+                </div>
+                <hr class="global__line container-fluid">
 
-            <span class="descripcion-amenidad">Aqui va una descripcion dependiendo de la amenidad seleccionada</span>
+                <div class="text-wrapper">
+                    <p class="global__paragraph m-5 text-center text-white" id="descripcion-amenidad">Descubre la
+                        <b>EXCEPCIONALIDAD</b> de nuestro complejo y disfruta de sus <b>AMENIDADES</b> </p>
+                </div>
+            </div>
+
         </div>
+
     </main>
 
-    <footer class="footer">
-        <p>Hola, soy un footer</p>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <!-- FOOTER -->
 
-        <section class="social-media">
-            <a href="https://www.facebook.com"><img src="../assets/fb_icon.jpg" alt="social" width="2%"></a>
-            <a href="https://www.instagram.com"><img src="../assets/ig_icon.png" alt="social" width="2%"></a>
-        </section>
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 footer">
+            <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
 
-    </footer>
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <a class="footer-brand mt-4" href="index.html">
+                    <img src="../assets/logo-navbar.png" class="logo-navbar" alt="footer logo">
+                </a>
+                <div class="mt-4">
+                    <a href="https://youtu.be/ZZ5LpwO-An4" class="text-decoration-none mx-3">
+                        <img class="footer-icon" src="../assets/fb_icon.jpg" alt="social">
+                    </a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" class="text-decoration-none mx-3">
+                        <img class="footer-icon" src="../assets/ig_icon.png" alt="social">
+                    </a>
+                    <a href="https://youtu.be/ZZ5LpwO-An4" class="text-decoration-none mx-3">
+                        <img class="footer-icon" src="../assets/cheems-coin.png" alt="social">
+                    </a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" class="text-decoration-none mx-3">
+                        <img class="footer-icon" src="../assets/cheems-icon.png" alt="social">
+                    </a>
+                </div>
+        </footer>
+    </div>
+
+    <!-- FOOTER -->
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

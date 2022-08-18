@@ -13,93 +13,97 @@
     <title>Index</title>
 </head>
 
-<body class="contenedor">
+<body class="container-fluid" id="container">
 
-    <header class="header">
-        <div class="cajaLogo">
-            <a class="logoHeader" href="#">LOGO</a>
+
+     <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./assets/logo-navbar.png" class="logo-navbar" alt="logo barra navegacion">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/amenidades.html">AMENIDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/departamentos.html">MODELOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/ubicacion.html">UBICACIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/contacto.html">CONTACTO</a>
+              </li>
         </div>
-        <!--<li id="logo"><a href="../index.html">LOGO</a></li>-->
-        <nav class="cajaNav">
-            <div class="navLista">
-                <div><a href="./pages/amenidades.html">AMENIDADES</a></div>
-                <div><a href="./pages/departamentos.html">DEPARTAMENTOS</a></div>
-                <div><a href="./pages/ubicacion.html">UBICACIÓN</a></div>
-                <div><a href="./pages/contacto.html">CONTACTO</a></div>
-            </div>
-        </nav>
-    </header>
-
+      </nav>
+ 
     <main class="main">
 
-        <section class="indexSections">
-            <section class="section1">
+        <div class="p-5 mb-4 text-white bg-logo">
+            <div class="d-flex justify-content-center">
+                <img src="./assets/logo-brand.png" class="img-thumbnail col-lg-5" alt="logo">
+            </div>
+            <div class="container-fluid py-5" id="contenido-p-element">
+              <h3 class="display-5 fw-bold text-center mb-5">Custom name</h3>
+              <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolor vitae quos similique harum dolore. Non corporis nam architecto nihil.</p>
+            </div>
+          </div>
 
-                <div class="cardIntroSection">
+        <div class="p-5 text-white text-center" id="container-img-index">
+            <div>
+                 <img src="./assets/img-index.jpg" class="rounded img-index mx-5" alt="imagen en index">
+            </div>
+            <div class="container-fluid mt-5" id="custom-txt">
+                <p class="fw-bold mt-5 mb-5 fs-2">Custom text</p>
+                <p class="fs-4 mt-5 mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit officiis temporibus
+                    eius, quasi assumenda corporis.</p>
+            </div>
+        </div>
 
-                    <div class="imagenesCardIntroSection">
-                        <img class="logoIntro" src="./assets/cheems.jpg" alt="">
+<!--         <div class="p-5 text-white d-flex ">
+            <div>
+                 <img src="./assets/img-index.jpg" class="col-lg-5 rounded img-index mx-5 sm-4" alt="imagen introductoria">
+            </div>
+            <div class="container-fluid  mt-5">
+                <p class="fw-bold mt-5 mb-5 fs-2">Custom text</p>
+                <p class="fs-4 mt-5 mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit officiis temporibus
+                    eius, quasi assumenda corporis.</p>
+            </div>
+        </div> -->
 
-                        <div class="cuerpoIntro">
-                            <h3 class="sloganIntro">
-                                AQUI VA UN SLOGAN
-                            </h3>
-                            <span class="descripcionIntro">
-                                Lorem ipsum dolor sit amet
-                            </span>
-                        </div>
+      <div class="p-5 mb-4 text-white img-bottom-bg">
+        <div class="d-flex justify-content-center">
+            <img src="./assets/logo-brand.png" class="img-thumbnail col-lg-5" alt="logo">
+        </div>
+        <div class="container-fluid py-5">
+          <h3 class="display-5 fw-bold text-center mb-5">Custom name</h3>
+          <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolor vitae quos similique harum dolore. Non corporis nam architecto nihil.</p>
+        </div>
+      </div>
 
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section class="section2">
-
-                <div class="card">
-                    <div class="imagenesCard">
-                        <img class="imagenes" src="./assets/cheems.jpg" alt="Aqui va una imagen de cheems">
-
-                        <div class="cuerpo">
-                            <h3 class="titulo">
-                                TITULO ATRACTIVO
-                            </h3>
-                            <span class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section3">
-                <div class="cardSection3">
-                    <h3>
-                        AQUI VA UN TITULO
-                    </h3>
-                    <iframe class="iframeSection3" width="375" height="335"
-                        src="https://www.youtube.com/embed/YPJwPRTGmyw" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-
-            </section>
-
-        </section>
     </main>
 
-    <footer class="footer">
-        <p>Hola, soy un footer</p>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-        <section class="social-media">
-            <a href="https://www.facebook.com"><img src="./assets/fb_icon.jpg" alt="social" width="2%"></a>
-            <a href="https://www.instagram.com"><img src="./assets/ig_icon.png" alt="social" width="2%"></a>
-        </section>
-
-    </footer>
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+        </footer>
+      </div>
+      
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

@@ -1,19 +1,83 @@
-.contenedor {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
-    margin: 0;
-    font-family: monospace;
-    color: white;
-    font-size: 16px;
-    /*Agregar background-image*/
+.container-fluid {
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ---- AQUI VAN ESTILOS PARA HEADER Y MENU DE NAVEGACION ---- */
+
+/* ----- BOOTSTRAP ----- */
+
+.navbar {
+    background-color: black;
+    padding: 20px;
+    height: 80px;
+}
+
+.logo-navbar {
+    width: 30px;
+}
+
+.img-thumbnail {
+    background-color: transparent;
+    border: none;
+    width: 350px;
+    height: auto;
+}
+
+.img-index {
+    width: 250px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    background-image: /* linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.15)) , */ url(../assets/home_bg_1.jpg);
+    background-color: #000;
+    background-size: cover;
+}
+
+
+@media only screen and (min-width: 576px) {
+    
+    .img-index {
+        width: 350;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .img-index {
+        width: 400px;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .img-index {
+        width: 600px;
+    }
+    
+}
+    
+
+@media only screen and (min-width: 992px) {
+
+#container-img-index {
+    display: flex;
+}
+
+#custom-txt {
+    text-align: left;
+}
+
+.img-index {
+    width: 600px;
+}
+
+}
+    
 
 .header {
     display: flex;
@@ -80,12 +144,7 @@
 /* ----    AQUI VAN ESTILOS PARA MAIN    ---- */
 
 
-.main {
-    grid-area: main;
-    display: flex;
-    flex-flow: column;
-    background-color: rgb(25, 36, 61);
-}
+
 
 /* ----    AQUI VAN ESTILOS INDEX.HTML   ---- */
 
@@ -136,6 +195,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: transparent;
 }
 
 .imagenes {
@@ -156,6 +216,10 @@
 /*     ------ MEDIA QUERIES INDEX > SECTION 2 ------*/
 
 @media only screen and (min-width: 820px) {
+
+.cardSection2 {
+    background-color: transparent;
+}
 
 .imagenesCard {
     display: flex;
@@ -369,6 +433,10 @@
 }
 
 /*        ----   AQUI EMPIEZA EL FOOTER   ----      */
+
+.footer-icon {
+    width: 45px;
+}
 
 .footer {
     display: flex;

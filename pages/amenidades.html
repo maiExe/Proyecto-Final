@@ -13,21 +13,30 @@
     <title>Amenidades</title>
 </head>
 
-<body class="contenedor">
-    <header class="header">
-        <div class="cajaLogo">
-            <a class="logoHeader" href="../index.html">LOGO</a>
+<body class="container-fluid">
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../assets/logo-navbar.png" class="logo-navbar" alt="logo barra navegacion">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/amenidades.html">AMENIDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/departamentos.html">MODELOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/ubicacion.html">UBICACIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/contacto.html">CONTACTO</a>
+              </li>
         </div>
-        <!--<li id="logo"><a href="../index.html">LOGO</a></li>-->
-        <nav class="cajaNav">
-            <div class="navLista">
-                <div><a href="./amenidades.html">AMENIDADES</a></div>
-                <div><a href="./departamentos.html">DEPARTAMENTOS</a></div>
-                <div><a href="./ubicacion.html">UBICACIÓN</a></div>
-                <div><a href="./contacto.html">CONTACTO</a></div>
-            </div>
-        </nav>
-    </header>
+      </nav>
 
     <main class="main">
 
@@ -63,7 +72,7 @@
 
             </section>
 
-            <span class="descripcion-amenidad">Aqui va una descripcion dependiendo de la amenidad seleccionada</span>
+            <span class="descripcion-amenidad mt-5" style="color: #fff;">Aqui va una descripcion dependiendo de la amenidad seleccionada</span>
         </div>
     </main>
 

@@ -14,10 +14,9 @@ Algo que me confundo hasta el punto de redactar de nuevo esta parte jaja es que 
 //Listo
 en .navlista tienes un padding: none; esto no existe, si quieres quitar padding debe ser con padding: 0;
 
-
+//Listo
 en .amenidades-items tienes grid-area, pero esto no es necesario puesto que en realidad no definiste áreas previamente, puedes eliminar eso son cambios en ambos casos
 
-
+//Listo (quizá hay cosas que se me escaparon, pero intenté no repetir cosas)
 hablando de esto, veo que cuando utilizas tus media query repites algunas cosas en el original y el código del query, esto no es necesario, basta con poner las cosas que sí cambian.
-
 junto con el punto anterior ve revisando qué código se repite e intenta simplificarlo 

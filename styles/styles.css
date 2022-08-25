@@ -47,6 +47,10 @@
     color: rgb(138, 126, 56);
 }
 
+b {
+    color: rgb(138, 126, 56);
+}
+
 
 .main {
     display: flex;
@@ -90,6 +94,7 @@
     #custom-txt {
         text-align: left;
     }
+
 }
 
 

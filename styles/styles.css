@@ -5,8 +5,11 @@
 
 .navbar {
     background-color: black;
-    padding: 20px;
     height: 80px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
 }
 
 .nav-link {
@@ -15,76 +18,86 @@
 
 .logo-navbar {
     width: 30px;
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
 }
 
 #titles {
     color: rgb(138, 126, 56);
 }
 
-#slogan {
+.custom-txt p {
     color: rgb(221, 215, 200);
 }
 
 .img-thumbnail {
     background-color: transparent;
     border: none;
-    width: 350px;
-    height: auto;
 }
 
 .img-index {
-    width: 150px;
+    background-color: transparent;
+    width: 300px;
 }
+
+#title-img {
+    color: rgb(138, 126, 56);
+}
+
 
 .main {
     display: flex;
     flex-flow: column;
-    background-image:
-        url(../assets/home_bg_1.jpg);
+    background-image: url(../assets/home_bg_1.jpg);
     background-color: #000;
     background-size: cover;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 576px) {
 
-    .img-index {
-        width: 370px;
+    #title-img {
+        color: rgb(138, 126, 56);
+        margin-top: none;
     }
-
 }
 
+
 @media only screen and (min-width: 768px) {
+
+    #title-img {
+        color: rgb(138, 126, 56);
+    }
 
     .img-index {
         width: 400px;
     }
-
 }
 
 @media only screen and (min-width: 992px) {
 
-    .img-index {
-        width: 600px;
+    #title-img {
+        text-align: left;
+        color: rgb(138, 126, 56);
     }
 
-}
-
-
-@media only screen and (min-width: 992px) {
-
-    #container-img-index {
-        display: flex;
+    .img-index {
+        width: 500px;
     }
 
     #custom-txt {
         text-align: left;
     }
-
-    .img-index {
-        width: 600px;
-    }
-
 }
+
+
+/*     .img-index {
+        width: 600px;
+    } */
+
+
 
 /* -- AMENIDADES -- */
 
@@ -203,7 +216,6 @@
 }
 
 /*     ---- MEDIA QUERIES AMENIDADES ----   */
-
 
 @media only screen and (min-width: 820px) {
 

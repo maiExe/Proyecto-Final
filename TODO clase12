@@ -7,7 +7,7 @@ ________________________
 >>Objetivos específicos:
 ________________________
 
-Maquetar las páginas de tu sitio web, todas deben tener contenido(Se recomienda que sea real y no lorem). 
+Maquetar las páginas de tu sitio web, todas deben tener contenido(Se recomienda que sea real y no lorem).
 
 Para maquetar se puede usar bootstrap o grids + flexbox.
 
@@ -28,6 +28,6 @@ Se tomará en cuenta el buen uso de las propiedades Grid + Flex para el maquetad
 
 Páginas:
 
-Todas las páginas(5) tienen que tener el contenido estructurado y el estilo linkeado. En caso de usar bootstrap tiene que tener correctamente linkeado CDN de CSS y de JavaScript.
+Todas las páginas(5) tienen que tener el contenido estructurado y el estilo linkeado. En caso de usar bootstrap tiene que tener correctamente linkeado CDN de CSS y de JavaScript. //DONE
 
-Las páginas tienen que tener buen uso de etiquetas semánticas y todas las rutas deben funcionar correctamente.
+Las páginas tienen que tener buen uso de etiquetas semánticas y todas las rutas deben funcionar correctamente. //DONE

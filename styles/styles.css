@@ -14,6 +14,7 @@
 
 .nav-link {
     color: rgb(138, 126, 56);
+    z-index: 2;
 }
 
 .logo-navbar {
@@ -43,7 +44,7 @@
     width: 300px;
 }
 
-#title-img {
+.title-img {
     color: rgb(138, 126, 56);
 }
 
@@ -51,10 +52,12 @@ b {
     color: rgb(138, 126, 56);
 }
 
+#navbarNavAltMarkup {
+    z-index: 2;
+}
+
 
 .main {
-    display: flex;
-    flex-flow: column;
     background-image: url(../assets/home_bg_1.jpg);
     background-color: #000;
     background-size: cover;
@@ -62,7 +65,7 @@ b {
 
 @media only screen and (min-width: 576px) {
 
-    #title-img {
+    .title-img {
         color: rgb(138, 126, 56);
         margin-top: none;
     }
@@ -71,7 +74,7 @@ b {
 
 @media only screen and (min-width: 768px) {
 
-    #title-img {
+    .title-img {
         color: rgb(138, 126, 56);
     }
 
@@ -82,7 +85,7 @@ b {
 
 @media only screen and (min-width: 992px) {
 
-    #title-img {
+    .title-img {
         text-align: left;
         color: rgb(138, 126, 56);
     }
@@ -91,7 +94,7 @@ b {
         width: 500px;
     }
 
-    #custom-txt {
+    .custom-txt {
         text-align: left;
     }
 
@@ -104,71 +107,6 @@ b {
  .bs-amenidades-items {
     width: 200px;
     background-color: black;
-}
-
-.descripcion-amenidad {
-    color: #fff;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    align-items: center;
-    padding-bottom: 10px;
-}
-
-.cajaLogo {
-    padding: 20px;
-}
-
-.cajaNav {
-    text-align: center;
-}
-
-.navlista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logoHeader {
-    color: rgb(170, 189, 218);
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.navLista div {
-    padding: 5px;
-}
-
-.navLista div a {
-    color: rgb(170, 189, 218);
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.navLista div a:hover {
-    color: white;
-}
-
-/*    ----   MEDIA QUERIES NAV BAR    ------  */
-
-@media only screen and (min-width: 820px) {
-
-    .header {
-        position: fixed;
-        display: flex;
-        flex-flow: row;
-        background-color: black;
-        width: 100%;
-        z-index: 5;
-    }
-
-    .navLista {
-        display: flex;
-    }
 }
 
 /* ----- AQUI VAN ESTILOS PARA AMENIDADES.HTML ------ */
@@ -214,7 +152,6 @@ b {
 
 }
 
-
 @media only screen and (min-width: 1200px) {
 
     .bs-items-cont {
@@ -244,11 +181,6 @@ b {
     pointer-events:none
 }
 
-/* -- UBICACION -- */
-
-
-
-
 /* -- AQUI EMPIEZA EL FOOTER -- */
 
 
@@ -260,7 +192,6 @@ b {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    grid-area: footer;
     background-color: black;
     color: white;
     text-align: center;

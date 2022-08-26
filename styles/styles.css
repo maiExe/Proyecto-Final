@@ -5,152 +5,108 @@
 
 .navbar {
     background-color: black;
-    padding: 20px;
     height: 80px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
 }
 
 .nav-link {
     color: rgb(138, 126, 56);
+    z-index: 2;
 }
 
 .logo-navbar {
     width: 30px;
+    margin-left: 20px;
 }
 
-#titles {
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.titles {
     color: rgb(138, 126, 56);
 }
 
-#slogan {
+.custom-txt p {
     color: rgb(221, 215, 200);
 }
 
 .img-thumbnail {
     background-color: transparent;
     border: none;
-    width: 350px;
-    height: auto;
 }
 
 .img-index {
-    width: 150px;
+    background-color: transparent;
+    width: 300px;
 }
 
+.title-img {
+    color: rgb(138, 126, 56);
+}
+
+b {
+    color: rgb(138, 126, 56);
+}
+
+#navbarNavAltMarkup {
+    z-index: 2;
+}
+
+
 .main {
-    display: flex;
-    flex-flow: column;
-    background-image:
-        url(../assets/home_bg_1.jpg);
+    background-image: url(../assets/home_bg_1.jpg);
     background-color: #000;
     background-size: cover;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 576px) {
 
-    .img-index {
-        width: 370px;
+    .title-img {
+        color: rgb(138, 126, 56);
+        margin-top: none;
     }
-
 }
 
+
 @media only screen and (min-width: 768px) {
+
+    .title-img {
+        color: rgb(138, 126, 56);
+    }
 
     .img-index {
         width: 400px;
     }
-
 }
 
 @media only screen and (min-width: 992px) {
+
+    .title-img {
+        text-align: left;
+        color: rgb(138, 126, 56);
+    }
 
     .img-index {
-        width: 600px;
+        width: 500px;
     }
 
-}
-
-
-@media only screen and (min-width: 992px) {
-
-    #container-img-index {
-        display: flex;
-    }
-
-    #custom-txt {
+    .custom-txt {
         text-align: left;
     }
 
-    .img-index {
-        width: 600px;
-    }
-
 }
+
+
 
 /* -- AMENIDADES -- */
 
-.descripcion-amenidad {
-    color: #fff;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
+ .bs-amenidades-items {
+    width: 200px;
     background-color: black;
-    align-items: center;
-    padding-bottom: 10px;
-}
-
-.cajaLogo {
-    padding: 20px;
-}
-
-.cajaNav {
-    text-align: center;
-}
-
-.navlista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logoHeader {
-    color: rgb(170, 189, 218);
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.navLista div {
-    padding: 5px;
-}
-
-.navLista div a {
-    color: rgb(170, 189, 218);
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.navLista div a:hover {
-    color: white;
-}
-
-/*    ----   MEDIA QUERIES NAV BAR    ------  */
-
-@media only screen and (min-width: 820px) {
-
-    .header {
-        position: fixed;
-        display: flex;
-        flex-flow: row;
-        background-color: black;
-        width: 100%;
-        z-index: 5;
-    }
-
-    .navLista {
-        display: flex;
-    }
 }
 
 /* ----- AQUI VAN ESTILOS PARA AMENIDADES.HTML ------ */
@@ -160,43 +116,6 @@
     height: 400px;
 }
 
-.amenidades-options {
-    position: relative;
-    color: white;
-    top: -60px;
-    padding-top: 30px;
-}
-
-
-.amenidades-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto auto auto;
-}
-
-.amenidades-item {
-    grid-area: "amenidades-items";
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-color: black;
-}
-
-.amenidades-txt {
-    text-align: center;
-    font-size: 14px;
-    margin-left: 20px;
-}
-
-.descripcion-amenidad {
-    height: 100px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px 50px 20px;
-}
-
 .global__line {
     background-color: white;
     height: 2px;
@@ -204,79 +123,54 @@
 
 /*     ---- MEDIA QUERIES AMENIDADES ----   */
 
+@media only screen and (min-width: 992px) {
 
-@media only screen and (min-width: 820px) {
-
-    .amenidades-options {
-        top: -105px;
-
+    .bs-items-cont {
+        margin: 0;
     }
 
-    .amenidades-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        justify-items: center;
+    .bs-amenidades-options {
+        position: relative;
+        color: white;
+        top: -100px;
+        padding-top: 30px;
     }
 
-    .amenidades-item {
-        display: flex;
-        justify-content: center;
-        background-color: black;
+    .bs-crcl {
+        padding: 0;
+    }
+
+    .bs-item {
+        height: 9rem;
+        width: 9rem;
         border-radius: 100px;
     }
 
-    .amenidades-txt {
+    .bs-items-txt {
+        line-height: 6.5em;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .bs-items-cont {
         margin: 0;
-        padding: 5px;
     }
 
-}
-
-@media only screen and (min-width: 820px) {
-
-    .amenidades-item {
-        height: 7rem;
-        width: 7rem;
-    }
-
-    #descripcion-amenidad {
-        font-size: 20px;
-    }
-
-    .amenidades-txt {
-        font-size: 16px;
-    }
-
-}
-
-
-@media only screen and (min-width: 1000px) {
-
-    .amenidades-item {
-        height: 8rem;
-        width: 8rem;
-    }
-
-    #descripcion-amenidad {
-        font-size: 26px;
-    }
-
-    .amenidades-txt {
-        font-size: 18px;
-    }
-
-}
-
-@media only screen and (min-width: 1300px) {
-
-    .amenidades-item {
+    .bs-item {
         height: 9rem;
         width: 9rem;
+        border-radius: 100px;
     }
 
-    .amenidades-txt {
-        font-size: 20px;
+    .bs-crcl {
+        padding: 0;
     }
 
+    .bs-items-txt {
+        line-height: 6.5em;
+    }
 }
 
 /* -- AQUI VAN ESTILOS DEPARTAMENTOS.HTML -- */
@@ -286,11 +180,6 @@
     border: none;
     pointer-events:none
 }
-
-/* -- UBICACION -- */
-
-
-
 
 /* -- AQUI EMPIEZA EL FOOTER -- */
 
@@ -303,7 +192,6 @@
     display: flex;
     justify-content: center;
     flex-flow: column;
-    grid-area: footer;
     background-color: black;
     color: white;
     text-align: center;

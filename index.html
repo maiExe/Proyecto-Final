@@ -13,81 +13,103 @@
     <title>Index</title>
 </head>
 
-<body class="container-fluid" id="container">
+<body class="container-fluid">
 
     <!-- NAV MENU -->
 
-    <nav class="navbar navbar-dark navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="./assets/logo-navbar.png" class="logo-navbar" alt="logo barra navegacion">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/amenidades.html">AMENIDADES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/departamentos.html">MODELOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/ubicacion.html">UBICACIÓN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                    </li>
+            <div class="collapse navbar-collapse bg-black" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                    <a class="nav-link" href="./pages/amenidades.html">AMENIDADES</a>
+                    <a class="nav-link" href="./pages/departamentos.html">MODELOS</a>
+                    <a class="nav-link" href="./pages/ubicacion.html">UBICACIÓN</a>
+                    <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+    
+                </div>
             </div>
+        </div>
     </nav>
 
     <!-- NAV MENU -->
 
     <main class="main">
 
-        <div class="p-5 mb-4 text-white bg-logo">
-            <div class="d-flex justify-content-center">
-                <img src="./assets/logo-brand.png" class="img-thumbnail col-lg-5" alt="logo">
-            </div>
-            <div class="container-fluid py-5">
-                <h3 class="display-5 fw-bold text-center mb-5" id="titles">Custom name</h3>
-                <p class="fs-4 text-center" id="slogan">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolor
-                    vitae quos similique harum dolore. Non corporis nam architecto nihil.</p>
-            </div>
-        </div>
-
-        <div class="p-5 text-white text-center" id="container-img-index">
-            <div>
-                <img src="./assets/img-index.jpg" class="rounded img-index mx-5" alt="imagen en index">
-            </div>
-            <div class="container-fluid mt-5" id="custom-txt">
-                <p class="fw-bold mt-5 mb-5 fs-2" id="titles">Custom text</p>
-                <p class="fs-4 mt-5 mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit officiis
-                    temporibus
-                    eius, quasi assumenda corporis.</p>
-            </div>
-        </div>
-
-        <div class="p-5 text-white img-bottom-bg">
-
-            <div class="container-fluid py-5 text-center">
-                <span class="display-6 fw-bold text-center" id="titles">
-                    Custom text
-                </span>
-            </div>
-
-            <div class="d-flex justify-content-center">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/G4TN_Te8F7Y" title="YouTube video" allowfullscreen>
-                    </iframe>
+        <div class="container text-center p-4">
+            <div class="row">
+                <div class="col-sm col-md col-lg col-xl p-4">
+                    <img src="./assets/logo-brand.png" class="img-thumbnail" alt="logo">
                 </div>
             </div>
-            <div class="container-fluid py-5">
-                <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolor
-                    vitae quos similique harum dolore. Non corporis nam architecto nihil.</p>
+
+            <div class="row">
+                <div class="p-4">
+                    <h1 class="titles fs-1 text-center">
+                        ADAMANT
+                    </h1>
+                    <p class="fs-5 text-white text-center">
+                        UN REFLEJO DE TU FELICIDAD
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center p-4">
+            <div class="row">
+                <div class="col-sm col-md p-4">
+                    <img src="./assets/img-index.jpg" class="img-index rounded" alt="imagen en index">
+                </div>
+
+                <div class="container-fluid text-center
+                col-sm col-md p-4">
+                    <p class="fs-1 title-img">UN DESARROLLO ÚNICO EN SU CLASE</p>
+                    <p class="fs-5 text-white custom-txt">
+                        <b>ADAMANT</b> te invita a entrar lleno de experiencias. Aquí podrás vivir el secreto de la felicidad con experiencias <b>EXTRA - ORDINARIAS</b> rodeado de vistas panorámicas espectaculares.
+                    </p>
+
+                    <p class="fs-5 text-white custom-txt">
+                        Un desarrollo moderno y vanguardista conformado por 2 edificios de 5 niveles comunicados entre sí por medio de puentes que atraviesan el patio interior.
+                    </p>
+                    <p class="fs-5 text-white custom-txt">
+
+                        DEPARTAMENTOS DE <b>115m2</b> DESDE <b>$1'600,000.00</b> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center bg-black">
+            <p class="titles p-4 text-center fs-1" id="">
+                CONOCE ADAMANT MÉRIDA
+            </p>
+        </div>
+
+
+        <div class="container text-center p-4">
+            <div class="row">
+                <div class="text-white img-bottom-bg">
+        
+        
+                    <div class="p-4 col col-lg-8">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/G4TN_Te8F7Y" title="YouTube video" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid text-center col-sm col-md-10 col-lg">
+                        <p class="fs-5 p-4"><b>Adamant Mérida</b> es la primera y única comunidad planeada del Sureste con más
+                            de 125 hectáreas de uso residencial, educativo, comercial y de entretenimiento. Un proyecto
+                            irrepetible en la ciudad.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -96,12 +118,10 @@
 
     <div class="container-fluid">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 footer">
-            <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
-
-            <a href="/"
-                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                <a class="footer-brand mt-4" href="index.html">
-                    <img src="./assets/logo-navbar.png" class="logo-navbar" alt="footer logo">
+            <p class="col-md-4 mb-0 text-muted">© 2022 ADAMANT</p>
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <a class="footer-brand mt-4" href="../index.html">
+                    <img src="../assets/logo-navbar.png" class="logo-navbar" alt="footer logo">
                 </a>
                 <div class="mt-4">
                     <a href="https://youtu.be/ZZ5LpwO-An4" class="text-decoration-none mx-3">

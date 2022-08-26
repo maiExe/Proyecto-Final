@@ -17,31 +17,26 @@
 
     <!-- NAV MENU -->
 
-    <nav class="navbar navbar-dark navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img src="../assets/logo-navbar.png" class="logo-navbar"
-                    alt="logo barra navegacion">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/logo-navbar.png" class="logo-navbar" alt="logo barra navegacion">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./amenidades.html" >AMENIDADES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./departamentos.html">MODELOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./ubicacion.html">UBICACIÓN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
-                    </li>
+            <div class="collapse navbar-collapse bg-black" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                    <a class="nav-link" href="./amenidades.html">AMENIDADES</a>
+                    <a class="nav-link" href="./departamentos.html">MODELOS</a>
+                    <a class="nav-link" href="./ubicacion.html">UBICACIÓN</a>
+                    <a class="nav-link" href="./contacto.html">CONTACTO</a>
+    
+                </div>
             </div>
+        </div>
     </nav>
 
     <!-- NAV MENU -->
@@ -86,42 +81,40 @@
 
         <!-- CAROUSEL -->
 
-        <div class="amenidades-options">
-            <section class="amenidades-list">
-
-                <div class="amenidades-item">
-                    <span class="amenidades-txt" id="titles">Alberca</span>
+        <div class="container-fluid text-center bs-amenidades-options">
+        
+            <!-- Three columns of text below the carousel -->
+            <div class="row bs-items-cont">
+                <div class="col-lg-2 col-xl-2 bs-crcl">
+                    <div class="bg-black p-3 bs-item"><p class="titles bs-items-txt">Alberca</p></div>
                 </div>
-
-                <div class="amenidades-item">
-                    <span class="amenidades-txt" id="titles">Gimnasio</span>
+                <div class="col-lg-2 col-xl-2 bs-crcl">
+                    <div class="bg-black p-3 bs-item"><p class="titles bs-items-txt">Jacuzzi</p></div>
                 </div>
-
-                <div class="amenidades-item">
-                    <span class="amenidades-txt" id="titles">Jacuzzi</span>
+                <div class="col-lg-2 col-xl-2 bs-crcl">
+                    <div class="bg-black p-3 bs-item"><p class="titles bs-items-txt">Gimnasio</p></div>
                 </div>
-
-                <div class="amenidades-item">
-                    <span class="amenidades-txt" id="titles">Lavandería</span>
+                <div class="col-lg-2 col-xl-2 bs-crcl">
+                    <div class="bg-black p-3 bs-item"><p class="titles bs-items-txt">Lavandería</p></div>
                 </div>
-
-                <div class="amenidades-item">
-                    <span class="amenidades-txt" id="titles">Lobby</span>
+                <div class="col-lg-2 col-xl-2 bs-crcl">
+                    <div class="bg-black p-3 bs-item"><p class="titles bs-items-txt">Lobby</p></div>
                 </div>
-
-                <div class="amenidades-item">
-                    <span class="amenidades-txt" id="titles">Roof garden</span>
+                <div class="col-lg-2 col-xl-2 bs-crcl">
+                    <div class="bg-black p-3 bs-item"><p class="titles bs-items-txt">Roof Garden</p></div>
                 </div>
+            </div><!-- /.row -->
+        </div>
 
-            </section>
+        <div class="container-fluid">
             <div class="content-wrapper bg-black p-5 mt-5">
                 <div class="title-wrapper text-center">
-                    <h2 class="global__subtitle" id="titles">ETERNALLY <b>ENJOYABLE</b></h2>
+                    <h2 class="global__subtitle titles">ETERNALLY <b>ENJOYABLE</b></h2>
                 </div>
                 <hr class="global__line container-fluid">
 
                 <div class="text-wrapper">
-                    <p class="global__paragraph m-5 text-center text-white" id="descripcion-amenidad">Descubre la
+                    <p class="global__paragraph m-5 text-center text-white fs-3">Descubre la
                         <b>EXCEPCIONALIDAD</b> de nuestro complejo y disfruta de sus <b>AMENIDADES</b> </p>
                 </div>
             </div>
@@ -134,11 +127,11 @@
 
     <div class="container-fluid">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 footer">
-            <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+            <p class="col-md-4 mb-0 text-muted">© 2022 ADAMANT</p>
 
             <a href="/"
                 class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                <a class="footer-brand mt-4" href="index.html">
+                <a class="footer-brand mt-4" href="../index.html">
                     <img src="../assets/logo-navbar.png" class="logo-navbar" alt="footer logo">
                 </a>
                 <div class="mt-4">

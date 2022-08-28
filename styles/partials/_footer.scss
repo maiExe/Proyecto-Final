@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+
+    .footer-icon {
+        width: 30px;
+    }
+
+    .logo-footer {
+        width: 30px;
+        margin-left: 20px;
+    }
+}

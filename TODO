@@ -1,0 +1,32 @@
+>> Consigna:
+
+Configurar Sass en nuestro proyecto. Aplicar los conceptos vistos durante la clase de SASS I en una página a elección del proyecto (podes modificar tu código CSS hecho previamente y adaptarlo a las reglas de SASS). //DONE
+
+Cargar todo en github.
+
+>>Aspectos a incluir en el entregable:
+
+Instala SASS y crea el archivo SCSS para compilarlo en CSS. //DONE
+
+Aplicar conceptos vistos en SASS I: 
+
+- Generar los archivos parciales(partials) a partir de la idea de componentes. Ej: _header.scss, importarlo en el archivo principal scss.
+
+//DONE -> colors.scss, footer.scsss, header.scss, main.scss
+
+- Usar variables para aplicarla como valor a una propiedad.
+
+//DONE -> _colors.scss
+
+- Realizar nesting(anidamiento).
+
+//DONE -> _styles.scss, _header.scss, _footer.scss
+
+- Usar el selector: ‘&’ dentro de algún nesting.
+
+//DONE -> _header.scss linea 15 &:hover
+
+
+
+
+    

@@ -1,200 +1,158 @@
-.container-fluid {
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.main {
+  background-image: url(../assets/home_bg_1.jpg);
+  background-color: #000;
+  background-size: cover;
 }
 
 .navbar {
-    background-color: black;
-    height: 80px;
+  background-color: black;
+  height: 80px;
 }
-
-.navbar-nav {
-    margin-left: 20px;
+.navbar .navbar-nav {
+  margin-left: 20px;
 }
-
-.nav-link {
-    color: rgb(138, 126, 56);
-    z-index: 2;
+.navbar .nav-link {
+  color: rgb(138, 126, 56);
+  z-index: 2;
 }
-
-.logo-navbar {
-    width: 30px;
-    margin-left: 20px;
+.navbar .nav-link:hover {
+  color: rgb(227, 227, 174);
 }
-
-.navbar-toggler {
-    margin-right: 20px;
+.navbar .logo-navbar {
+  width: 30px;
+  margin-left: 20px;
 }
-
-.titles {
-    color: rgb(138, 126, 56);
+.navbar .navbar-toggler {
+  margin-right: 20px;
 }
-
-.custom-txt p {
-    color: rgb(221, 215, 200);
-}
-
-.img-thumbnail {
-    background-color: transparent;
-    border: none;
-}
-
-.img-index {
-    background-color: transparent;
-    width: 300px;
-}
-
-.title-img {
-    color: rgb(138, 126, 56);
-}
-
-b {
-    color: rgb(138, 126, 56);
-}
-
-#navbarNavAltMarkup {
-    z-index: 2;
-}
-
-
-.main {
-    background-image: url(../assets/home_bg_1.jpg);
-    background-color: #000;
-    background-size: cover;
-}
-
-@media only screen and (min-width: 576px) {
-
-    .title-img {
-        color: rgb(138, 126, 56);
-        margin-top: none;
-    }
-}
-
-
-@media only screen and (min-width: 768px) {
-
-    .title-img {
-        color: rgb(138, 126, 56);
-    }
-
-    .img-index {
-        width: 400px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-
-    .title-img {
-        text-align: left;
-        color: rgb(138, 126, 56);
-    }
-
-    .img-index {
-        width: 500px;
-    }
-
-    .custom-txt {
-        text-align: left;
-    }
-
-}
-
-
-
-/* -- AMENIDADES -- */
-
- .bs-amenidades-items {
-    width: 200px;
-    background-color: black;
-}
-
-/* ----- AQUI VAN ESTILOS PARA AMENIDADES.HTML ------ */
-
-
-.banner-amenidades {
-    height: 400px;
-}
-
-.global__line {
-    background-color: white;
-    height: 2px;
-}
-
-/*     ---- MEDIA QUERIES AMENIDADES ----   */
-
-@media only screen and (min-width: 992px) {
-
-    .bs-items-cont {
-        margin: 0;
-    }
-
-    .bs-amenidades-options {
-        position: relative;
-        color: white;
-        top: -100px;
-        padding-top: 30px;
-    }
-
-    .bs-crcl {
-        padding: 0;
-    }
-
-    .bs-item {
-        height: 9rem;
-        width: 9rem;
-        border-radius: 100px;
-    }
-
-    .bs-items-txt {
-        line-height: 6.5em;
-    }
-
-}
-
-@media only screen and (min-width: 1200px) {
-
-    .bs-items-cont {
-        margin: 0;
-    }
-
-    .bs-item {
-        height: 9rem;
-        width: 9rem;
-        border-radius: 100px;
-    }
-
-    .bs-crcl {
-        padding: 0;
-    }
-
-    .bs-items-txt {
-        line-height: 6.5em;
-    }
-}
-
-/* -- AQUI VAN ESTILOS DEPARTAMENTOS.HTML -- */
-
-.btn {
-    background-color: rgb(204, 178, 63);
-    border: none;
-    pointer-events:none
-}
-
-/* -- AQUI EMPIEZA EL FOOTER -- */
-
-
-.footer-icon {
-    width: 30px;
+.navbar #navbarNavAltMarkup {
+  z-index: 2;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
 }
+.footer .footer-icon {
+  width: 30px;
+}
+.footer .logo-footer {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.img-thumbnail {
+  background-color: transparent;
+  border: none;
+}
+
+.img-index {
+  background-color: transparent;
+  width: 300px;
+}
+
+.container-fluid {
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-fluid .titles {
+  color: rgb(138, 126, 56);
+}
+.container-fluid .title-img {
+  color: rgb(138, 126, 56);
+}
+.container-fluid b {
+  color: rgb(138, 126, 56);
+}
+
+@media only screen and (min-width: 576px) {
+  .title-img {
+    color: rgb(138, 126, 56);
+    margin-top: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .title-img {
+    color: rgb(138, 126, 56);
+  }
+  .img-index {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .title-img {
+    text-align: left;
+    color: rgb(138, 126, 56);
+  }
+  .img-index {
+    width: 500px;
+  }
+  .custom-txt {
+    text-align: left;
+  }
+}
+/* -- AMENIDADES -- */
+.bs-amenidades-items {
+  width: 200px;
+  background-color: black;
+}
+
+.banner-amenidades {
+  height: 400px;
+}
+
+.global__line {
+  background-color: #FFF;
+  height: 2px;
+}
+
+/*     ---- MEDIA QUERIES AMENIDADES ----   */
+@media only screen and (min-width: 992px) {
+  .bs-amenidades-options {
+    position: relative;
+    color: #FFF;
+    top: -100px;
+    padding-top: 30px;
+  }
+  .bs-amenidades-options .bs-items-cont {
+    margin: 0;
+  }
+  .bs-amenidades-options .bs-crcl {
+    padding: 0;
+  }
+  .bs-amenidades-options .bs-item {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 100px;
+  }
+  .bs-amenidades-options .bs-items-txt {
+    line-height: 6.5em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bs-items-cont {
+    margin: 0;
+  }
+  .bs-item {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 100px;
+  }
+  .bs-crcl {
+    padding: 0;
+  }
+  .bs-items-txt {
+    line-height: 6.5em;
+  }
+}
+/* -- AQUI VAN ESTILOS DEPARTAMENTOS.HTML -- */
+.btn {
+  background-color: rgb(204, 178, 63);
+  border: none;
+  pointer-events: none;
+}/*# sourceMappingURL=styles.css.map */

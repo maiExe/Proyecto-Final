@@ -46,6 +46,46 @@
   margin-left: 20px;
 }
 
+.btn, .suscribirse {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn, .suscribirse {
+  background-color: rgb(178, 58, 58);
+  color: #fff;
+}
+
+.suscribirse {
+  background-color: orange;
+}
+
+.boton {
+  padding: 10px;
+  border-bottom: 3px solid red;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+
+.boton-primario {
+  padding: 10px;
+  border-bottom: 3px solid purple;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+}
+
+.boton-secundario {
+  padding: 10px;
+  border-bottom: 3px solid pink;
+  border-radius: 5px;
+  color: white;
+  background-color: purple;
+}
+
 .img-thumbnail {
   background-color: transparent;
   border: none;
@@ -151,7 +191,7 @@
   }
 }
 /* -- AQUI VAN ESTILOS DEPARTAMENTOS.HTML -- */
-.btn {
+.btn, .suscribirse {
   background-color: rgb(204, 178, 63);
   border: none;
   pointer-events: none;

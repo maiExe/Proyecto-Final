@@ -4,6 +4,8 @@
   background-size: cover;
 }
 
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
 .navbar {
   background-color: black;
   height: 80px;
@@ -46,6 +48,10 @@
   margin-left: 20px;
 }
 
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
 .btn, .suscribirse {
   padding: 10px;
   border: none;
@@ -53,6 +59,10 @@
   font-size: 16px;
 }
 
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
 .btn, .suscribirse {
   background-color: rgb(178, 58, 58);
   color: #fff;

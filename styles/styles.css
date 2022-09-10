@@ -4,6 +4,8 @@
   background-size: cover;
 }
 
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
 .navbar {
   background-color: black;
   height: 80px;
@@ -46,6 +48,10 @@
   margin-left: 20px;
 }
 
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
 .btn, .suscribirse {
   padding: 10px;
   border: none;
@@ -53,6 +59,10 @@
   font-size: 16px;
 }
 
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
+/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
+/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
 .btn, .suscribirse {
   background-color: rgb(178, 58, 58);
   color: #fff;
@@ -86,6 +96,7 @@
   background-color: purple;
 }
 
+/* --- INDEX STYLES --- */
 .img-thumbnail {
   background-color: transparent;
   border: none;
@@ -94,6 +105,16 @@
 .img-index {
   background-color: transparent;
   width: 300px;
+}
+@media (min-width: 768px) {
+  .img-index {
+    width: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .img-index {
+    width: 500px;
+  }
 }
 
 .container-fluid {
@@ -106,37 +127,70 @@
 .container-fluid .title-img {
   color: rgb(138, 126, 56);
 }
-.container-fluid b {
-  color: rgb(138, 126, 56);
-}
-
-@media only screen and (min-width: 576px) {
-  .title-img {
+@media (min-width: 576px) {
+  .container-fluid .title-img {
     color: rgb(138, 126, 56);
     margin-top: none;
   }
 }
-@media only screen and (min-width: 768px) {
-  .title-img {
+@media (min-width: 768px) {
+  .container-fluid .title-img {
     color: rgb(138, 126, 56);
   }
-  .img-index {
-    width: 400px;
-  }
 }
-@media only screen and (min-width: 992px) {
-  .title-img {
+@media (min-width: 992px) {
+  .container-fluid .title-img {
     text-align: left;
     color: rgb(138, 126, 56);
   }
-  .img-index {
-    width: 500px;
-  }
+}
+
+b {
+  color: rgb(138, 126, 56);
+}
+
+@media (min-width: 992px) {
   .custom-txt {
     text-align: left;
   }
 }
-/* -- AMENIDADES -- */
+
+/* -- AMENIDADES STYLES -- */
+@media (min-width: 992px) {
+  .bs-amenidades-options {
+    position: relative;
+    color: #FFF;
+    top: -100px;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bs-items-cont {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .bs-crcl {
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bs-item {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bs-items-txt {
+    line-height: 6.5em;
+  }
+}
+
 .bs-amenidades-items {
   width: 200px;
   background-color: black;
@@ -151,46 +205,33 @@
   height: 2px;
 }
 
-/*     ---- MEDIA QUERIES AMENIDADES ----   */
-@media only screen and (min-width: 992px) {
-  .bs-amenidades-options {
-    position: relative;
-    color: #FFF;
-    top: -100px;
-    padding-top: 30px;
-  }
-  .bs-amenidades-options .bs-items-cont {
-    margin: 0;
-  }
-  .bs-amenidades-options .bs-crcl {
-    padding: 0;
-  }
-  .bs-amenidades-options .bs-item {
-    height: 9rem;
-    width: 9rem;
-    border-radius: 100px;
-  }
-  .bs-amenidades-options .bs-items-txt {
-    line-height: 6.5em;
-  }
-}
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .bs-items-cont {
     margin: 0;
   }
+}
+
+@media (min-width: 1200px) {
   .bs-item {
     height: 9rem;
     width: 9rem;
     border-radius: 100px;
   }
+}
+
+@media (min-width: 1200px) {
   .bs-crcl {
     padding: 0;
   }
+}
+
+@media (min-width: 1200px) {
   .bs-items-txt {
     line-height: 6.5em;
   }
 }
-/* -- AQUI VAN ESTILOS DEPARTAMENTOS.HTML -- */
+
+/* -- DEPARTAMENTOS STYLES -- */
 .btn, .suscribirse {
   background-color: rgb(204, 178, 63);
   border: none;

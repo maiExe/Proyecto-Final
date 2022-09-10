@@ -1,6 +1,6 @@
-@import "./partials/_main",  "./partials/_header", "./partials/_footer", "./partials/_colors", "./partials/_extends", "./partials/_mixins", "./partials/_buttons";
+@import "./partials/_main", "./partials/_header", "./partials/_footer", "./partials/_colors", "./partials/_extends", "./partials/_mixins", "./partials/_buttons";
 
-
+/* --- INDEX STYLES --- */
 
 .img-thumbnail {
     background-color: transparent;
@@ -10,6 +10,14 @@
 .img-index {
     background-color: transparent;
     width: 300px;
+
+    @media (min-width: 768px) {
+        width: 400px;
+    }
+
+    @media (min-width: 992px) {
+        width: 500px;
+    }
 }
 
 .container-fluid {
@@ -22,54 +30,73 @@
 
     .title-img {
         color: $titles-color;
-    }
 
-    b {
-        color: $titles-color;
-    }
-}
+        @media (min-width: 576px) {
+            color: $titles-color;
+            margin-top: none;    
+        }
 
+        @media (min-width: 768px) {
+            color: $titles-color;
+        }
 
-@media only screen and (min-width: 576px) {
-
-    .title-img {
-        color: $titles-color;
-        margin-top: none;
-    }
-}
-
-
-@media only screen and (min-width: 768px) {
-
-    .title-img {
-        color: $titles-color;
-    }
-
-    .img-index {
-        width: 400px;
+        @media (min-width: 992px) {
+            text-align: left;
+            color: $titles-color;    
+        }
     }
 }
 
-@media only screen and (min-width: 992px) {
-
-    .title-img {
-        text-align: left;
-        color: $titles-color;
-    }
-
-    .img-index {
-        width: 500px;
-    }
-
-    .custom-txt {
-        text-align: left;
-    }
-
+b {
+    color: $titles-color;
 }
 
-/* -- AMENIDADES -- */
+.custom-txt {
 
- .bs-amenidades-items {
+    @media (min-width: 992px) {
+    text-align: left;
+    }
+}
+
+/* -- AMENIDADES STYLES -- */
+
+.bs-amenidades-options {
+
+    @media (min-width: 992px) {
+        position: relative;
+        color: $primary-color;
+        top: -100px;
+        padding-top: 30px;
+    }
+}
+
+.bs-items-cont {
+    @media (min-width: 992px) {
+        margin: 0;
+    }
+}
+
+.bs-crcl {
+    @media (min-width: 992px) {
+        padding-right: 0px;
+    }
+}
+
+.bs-item {
+    @media (min-width: 992px) {
+        height: 9rem;
+        width: 9rem;
+        border-radius: 100px;
+    }
+}
+
+.bs-items-txt {
+    @media (min-width: 992px) {
+        line-height: 6.5em;
+    }
+}
+
+.bs-amenidades-items {
     width: 200px;
     background-color: black;
 }
@@ -83,60 +110,33 @@
     height: 2px;
 }
 
-/*     ---- MEDIA QUERIES AMENIDADES ----   */
-
-@media only screen and (min-width: 992px) {
-
-
-.bs-amenidades-options {
-    position: relative;
-    color: $primary-color;
-    top: -100px;
-    padding-top: 30px;
-    .bs-items-cont {
+.bs-items-cont {
+    @media (min-width: 1200px) {
         margin: 0;
     }
+}
 
-    .bs-crcl {
-        padding: 0;
-    }
-
-    .bs-item {
+.bs-item {
+    @media (min-width: 1200px) {
         height: 9rem;
         width: 9rem;
         border-radius: 100px;
     }
-
-    .bs-items-txt {
-        line-height: 6.5em;
-    }
-    
 }
 
-}
-
-@media only screen and (min-width: 1200px) {
-
-    .bs-items-cont {
-        margin: 0;
-    }
-
-    .bs-item {
-        height: 9rem;
-        width: 9rem;
-        border-radius: 100px;
-    }
-
-    .bs-crcl {
+.bs-crcl {
+    @media (min-width: 1200px) {
         padding: 0;
     }
+}
 
-    .bs-items-txt {
+.bs-items-txt {
+    @media (min-width: 1200px) {
         line-height: 6.5em;
     }
 }
 
-/* -- AQUI VAN ESTILOS DEPARTAMENTOS.HTML -- */
+/* -- DEPARTAMENTOS STYLES -- */
 
 .btn {
     background-color: $buttons-color;

@@ -1,4 +1,4 @@
-@import "./partials/_main", "./partials/_header", "./partials/_footer", "./partials/_colors", "./partials/_extends", "./partials/_mixins", "./partials/_buttons";
+@import "./partials/_colors", "./partials/_main", "./partials/_header", "./partials/_footer";
 
 /* --- INDEX STYLES --- */
 
@@ -33,7 +33,7 @@
 
         @media (min-width: 576px) {
             color: $titles-color;
-            margin-top: none;    
+            margin-top: 0;    
         }
 
         @media (min-width: 768px) {
@@ -47,7 +47,7 @@
     }
 }
 
-b {
+.titles-color {
     color: $titles-color;
 }
 

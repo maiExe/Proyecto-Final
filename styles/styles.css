@@ -4,8 +4,6 @@
   background-size: cover;
 }
 
-/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
-/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
 .navbar {
   background-color: black;
   height: 80px;
@@ -46,54 +44,6 @@
 .footer .logo-footer {
   width: 30px;
   margin-left: 20px;
-}
-
-/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
-/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
-/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
-/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
-.btn, .suscribirse {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
-/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
-/* -- ESTO NO ES PARTE DE LA ENTREGA DEL PROYECTO FINAL -- */
-/* -- ES PARA LA ENTREGA DEL DESAFIO SASS II + SEO -- */
-.btn, .suscribirse {
-  background-color: rgb(178, 58, 58);
-  color: #fff;
-}
-
-.suscribirse {
-  background-color: orange;
-}
-
-.boton {
-  padding: 10px;
-  border-bottom: 3px solid red;
-  border-radius: 5px;
-  color: white;
-  background-color: black;
-}
-
-.boton-primario {
-  padding: 10px;
-  border-bottom: 3px solid purple;
-  border-radius: 5px;
-  color: white;
-  background-color: blue;
-}
-
-.boton-secundario {
-  padding: 10px;
-  border-bottom: 3px solid pink;
-  border-radius: 5px;
-  color: white;
-  background-color: purple;
 }
 
 /* --- INDEX STYLES --- */
@@ -145,7 +95,7 @@
   }
 }
 
-b {
+.titles-color {
   color: rgb(138, 126, 56);
 }
 
@@ -159,7 +109,7 @@ b {
 @media (min-width: 992px) {
   .bs-amenidades-options {
     position: relative;
-    color: #FFF;
+    color: rgb(227, 227, 174);
     top: -100px;
     padding-top: 30px;
   }
@@ -201,7 +151,7 @@ b {
 }
 
 .global__line {
-  background-color: #FFF;
+  background-color: rgb(227, 227, 174);
   height: 2px;
 }
 
@@ -232,7 +182,7 @@ b {
 }
 
 /* -- DEPARTAMENTOS STYLES -- */
-.btn, .suscribirse {
+.btn {
   background-color: rgb(204, 178, 63);
   border: none;
   pointer-events: none;
